@@ -18,7 +18,7 @@ app.post("/", jsonParser, function (req, res) {
 
   //armazena o valor recebido pela rede na variável bit
   liga = req.body.liga;
-  desliga = req.body.dsliga;
+  desliga = req.body.desliga;
   restart = req.body.restart;
   
 
